@@ -1,0 +1,28 @@
+{
+    "name": "node_scrapy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "example": "node example.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Puppeteer",
+        "scrapy",
+        "chrome",
+        "headless"
+    ],
+    "author": "johnson",
+    "license": "MIT",
+    "dependencies": {
+        "crawler": "^1.1.1",
+        "csv-parse": "^2.0.0",
+        "csv-write-stream": "^2.0.0",
+        "mongoose": "^5.0.9",
+        "puppeteer": "^1.1.1",
+        "webtorrent": "^0.98.20",
+        "x-ray": "^2.3.2"
+    }
+}
